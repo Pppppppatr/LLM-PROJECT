@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 #sidebar
 st.sidebar.subheader("How to use", divider = True)
-st.sidebar.markdown("""1. Enter OpenAI API key \n 2. Choose GPT model \n 3. Put youe passage in the box \n 4. Press "Submit" button """)
+st.sidebar.markdown("""1. Enter OpenAI API key \n2. Put youe passage in the box \n 3. Press "Submit" button """)
 
 #API key
 user_api_key = st.sidebar.text_input("Enter OpenAI API Key", type="password")
