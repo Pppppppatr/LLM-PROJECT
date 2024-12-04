@@ -1,0 +1,5 @@
+pandas
+openai
+json
+streamlit
+matplotlib.pyplot
